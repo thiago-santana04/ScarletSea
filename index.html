@@ -1,87 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ScarletSea - Energia Inteligente das Ondas</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <link rel="stylesheet" href="style.css">
 </head>
-  
-<body class="bg-gradient-to-b from-purple-900 to-black text-white font-sans">
-
+<body class="bg-gray-950 text-white font-sans">
   <!-- Hero Section -->
-  <section class="h-screen flex flex-col justify-center items-center text-center px-6">
-    <h1 class="hero-title">🌊 ScarletSea</h1>
-    <p class="mt-4 max-w-2xl text-lg text-gray-300">
-      IoT para análise oceânica e geração de insights estratégicos para empresas de energia das ondas.
-    </p>
-    <a href="#about" class="btn-primary mt-6">Saiba Mais</a>
-
-    <!-- Animação de ondas -->
-    <div class="mt-12">
-      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_t24tpvcu.json"  
-        background="transparent"  
-        speed="1"  
-        style="width: 300px; height: 300px;"  
-        loop autoplay>
-      </lottie-player>
+  <section class="relative bg-gradient-to-r from-purple-800 via-violet-700 to-fuchsia-800 py-24 px-6 text-center overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_2LdLki.json" background="transparent" speed="1" loop autoplay></lottie-player>
     </div>
+    <h1 class="relative text-5xl md:text-6xl font-extrabold mb-4 text-white drop-shadow-lg">ScarletSea</h1>
+    <p class="relative text-xl md:text-2xl max-w-3xl mx-auto mb-8 text-gray-200">Inovação em IoT para análise oceânica e otimização da energia gerada pelas ondas do mar.</p>
+    <a href="#contato" class="relative bg-violet-500 hover:bg-violet-400 text-white px-8 py-3 rounded-full font-semibold shadow-lg transition">Entre em Contato</a>
   </section>
 
   <!-- Sobre -->
-  <section id="about" class="py-20 px-6 text-center">
-    <h2 class="section-title">📊 Nosso Objetivo</h2>
-    <p class="mt-4 max-w-3xl mx-auto text-gray-300">
-      Desenvolvemos soluções IoT capazes de coletar e processar dados sobre maré, temperatura, densidade e frequência de ondas,
-      transformando-os em informações estratégicas para empresas que exploram energia oceânica.
-    </p>
-  </section>
-
-  <!-- Sensores -->
-  <section id="sensors" class="py-20 px-6 bg-black/40 text-center">
-    <h2 class="section-title">🔬 Como coletamos os dados?</h2>
-    <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto mt-12">
-      
-      <!-- Sensor card -->
-      <div class="sensor-card">
-        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_vf6imwcv.json"
-          background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
-        </lottie-player>
-        <h3 class="text-xl font-bold mt-4">Sensores Subaquáticos</h3>
-        <p class="text-gray-400 mt-2">Captam temperatura, densidade da água e movimentação das correntes.</p>
+  <section class="py-16 px-8 md:px-20">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-violet-400 mb-6">Nosso Objetivo</h2>
+        <p class="text-lg text-gray-300">Na ScarletSea, desenvolvemos soluções inteligentes de IoT para monitorar parâmetros oceânicos fundamentais — como maré, temperatura, densidade, altura e frequência de ondas. Nosso objetivo é fornecer insights preditivos para empresas que atuam na geração de energia a partir das ondas marítimas, garantindo maior eficiência, segurança e sustentabilidade.</p>
       </div>
-
-      <div class="sensor-card">
-        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_jzqzj8dw.json"
-          background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
-        </lottie-player>
-        <h3 class="text-xl font-bold mt-4">Boias Inteligentes</h3>
-        <p class="text-gray-400 mt-2">Monitoram altura, frequência e intensidade das ondas em tempo real.</p>
+      <div class="flex justify-center">
+        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_z01bika0.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
       </div>
-
     </div>
   </section>
 
-  <!-- Insights -->
-  <section id="insights" class="py-20 px-6 text-center">
-    <h2 class="section-title">💡 De Dados a Insights</h2>
-    <p class="mt-4 max-w-3xl mx-auto text-gray-300">
-      Os dados coletados são enviados para a nuvem, onde algoritmos de análise preditiva transformam números em decisões.
-      O resultado: eficiência energética e sustentabilidade.
-    </p>
-    <div class="mt-12">
-      <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_nszjokmm.json"
-        background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
-      </lottie-player>
+  <!-- Como Funciona -->
+  <section class="bg-gray-900 py-16 px-8 md:px-20">
+    <h2 class="text-3xl font-bold text-violet-400 mb-10 text-center">Como Funciona?</h2>
+    <div class="grid md:grid-cols-3 gap-10 text-center">
+      <div class="p-6 bg-gray-800 rounded-2xl shadow-lg">
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_m6cuL6.json" background="transparent" speed="1" style="width: 120px; height: 120px; margin: auto;" loop autoplay></lottie-player>
+        <h3 class="text-xl font-semibold mb-3 mt-4">Sensores IoT</h3>
+        <p class="text-gray-300">Boias equipadas com sensores de maré, temperatura, densidade e altura/frequência de ondas coletam dados em tempo real.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-2xl shadow-lg">
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_editor_j1nqpwgm.json" background="transparent" speed="1" style="width: 120px; height: 120px; margin: auto;" loop autoplay></lottie-player>
+        <h3 class="text-xl font-semibold mb-3 mt-4">Transmissão Segura</h3>
+        <p class="text-gray-300">Os dados são enviados via LoRaWAN, 4G/5G ou satélite para garantir conectividade até mesmo em áreas remotas.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-2xl shadow-lg">
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_1pxqjqps.json" background="transparent" speed="1" style="width: 120px; height: 120px; margin: auto;" loop autoplay></lottie-player>
+        <h3 class="text-xl font-semibold mb-3 mt-4">Plataforma Inteligente</h3>
+        <p class="text-gray-300">Na nuvem, aplicamos IA e Machine Learning para transformar dados em insights energéticos e relatórios estratégicos.</p>
+      </div>
     </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="py-16 px-8 md:px-20">
+    <h2 class="text-3xl font-bold text-violet-400 mb-10 text-center">Benefícios para Empresas</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold mb-2">Previsão de Energia</h3>
+        <p class="text-gray-300">Estimamos a produção energética futura com base nas condições oceânicas.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold mb-2">Redução de Riscos</h3>
+        <p class="text-gray-300">Identificação de padrões de ondas que podem impactar turbinas e operações.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold mb-2">Eficiência Operacional</h3>
+        <p class="text-gray-300">Insights que ajudam empresas a reduzir custos e otimizar seus processos.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold mb-2">Sustentabilidade</h3>
+        <p class="text-gray-300">Contribuímos para um futuro mais limpo, aproveitando ao máximo a energia das ondas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="contato" class="bg-gradient-to-r from-violet-700 to-fuchsia-700 py-16 text-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+      <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ysrn2bbt.json" background="transparent" speed="1" loop autoplay></lottie-player>
+    </div>
+    <h2 class="relative text-3xl font-bold text-white mb-4">Pronto para investir no futuro da energia marítima?</h2>
+    <p class="relative text-lg text-gray-200 mb-6">Entre em contato com a ScarletSea e descubra como podemos colaborar.</p>
+    <a href="mailto:contato@scarletsea.com" class="relative bg-white text-violet-700 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition">Fale Conosco</a>
   </section>
 
   <!-- Footer -->
-  <footer class="py-10 text-center text-gray-400 text-sm">
-    © 2025 ScarletSea - Todos os direitos reservados.
+  <footer class="bg-gray-900 py-6 text-center text-gray-400 text-sm">
+    © 2025 ScarletSea. Todos os direitos reservados.
   </footer>
-
 </body>
 </html>
