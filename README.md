@@ -1,4 +1,3 @@
-# ScarletSea
 
 # 🌊 ScarletSea - Energia Inteligente das Ondas
  Landing page para apresentar a startup **ScarletSea**, focada em IoT e análise oceânica para otimização da geração de energia a partir das ondas marítimas.
